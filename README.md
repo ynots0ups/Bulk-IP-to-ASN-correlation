@@ -11,7 +11,7 @@ Place these two files, and the list of IPs you wish to lookup named uniq_ip.txt,
 Execute ip2asn.py.
 You will be given two output files – ip2asn-<timestamp>-invalids.txt containing a list of all identified invalid IP addresses (including local and reserved addresses) and ip2asn-<timestamp>results.txt containing csv formatted results with a header of timestamp,ip,asn,”asn descriptor”.
 
-## Ip2asn.py
+## bulk-ip-to-asn-correlation.py
 
 It took me awhile to figure out the most efficient way to perform the correlation between a provided IP address and it’s associated subnet as registered from IANA.
 
