@@ -8,7 +8,7 @@ The first of these contains all assigned subnet ranges from IANA and their assoc
 The second a list of ASN numbers and descriptor.
 They are both updated daily between 4am and 9am +10GMT as outlined at http://thyme.apnic.net.
 Place these two files, and the list of IPs you wish to lookup named uniq_ip.txt, within the same folder as the ip2asn.py script.
-Execute ip2asn.py.
+Execute bulk-ip-to-asn-correlation.py
 You will be given two output files – ip2asn-<timestamp>-invalids.txt containing a list of all identified invalid IP addresses (including local and reserved addresses) and ip2asn-<timestamp>results.txt containing csv formatted results with a header of timestamp,ip,asn,”asn descriptor”.
 
 ## bulk-ip-to-asn-correlation.py
