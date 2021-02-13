@@ -1,7 +1,7 @@
 # Bulk-IP-to-ASN-correlation
 Perform a localized mass ASN lookup on a bulk dataset of IP Addresses
 
-##How to use
+## How to use
 
 Download the two BGP datasets linked within the top of the document (http://thyme.apnic.net/current/data-raw-table, and http://thyme.apnic.net/current/data-used-autnums).
 The first of these contains all assigned subnet ranges from IANA and their associated ASN numbers.
@@ -11,7 +11,7 @@ Place these two files, and the list of IPs you wish to lookup named uniq_ip.txt,
 Execute ip2asn.py.
 You will be given two output files – ip2asn-<timestamp>-invalids.txt containing a list of all identified invalid IP addresses (including local and reserved addresses) and ip2asn-<timestamp>results.txt containing csv formatted results with a header of timestamp,ip,asn,”asn descriptor”.
 
-##Ip2asn.py
+## Ip2asn.py
 
 It took me awhile to figure out the most efficient way to perform the correlation between a provided IP address and it’s associated subnet as registered from IANA.
 
