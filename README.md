@@ -26,3 +26,6 @@ Next, I build two lookup tables utilizing the data-raw-table file containing IAN
 We then build a final table from the data-used-autnums BGP data set which contains a correlation of ASN numbers to their descriptor text.
 
 Finally, for each IP address in our cleaned query list, we perform a bisect as outlined in the linked python documentation to correlate which maximum IP address the given IP falls under and it’s associated ASN number. That is then correlated to the descriptor text.
+
+# Disclaimer
+If the IP you provide doesn't exist I have no idea what will happen. It will probably explode. Good luck.
